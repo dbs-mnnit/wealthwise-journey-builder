@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// WealthWise custom colors
+				navy: {
+					50: '#f0f4f8',
+					100: '#d9e6f2',
+					200: '#b3cde0',
+					300: '#8db4ce',
+					400: '#679bbc',
+					500: '#4182aa',
+					600: '#1a365d',
+					700: '#2d3748',
+					800: '#1a202c',
+					900: '#171923'
+				},
+				gold: {
+					50: '#fffbeb',
+					100: '#fef3c7',
+					200: '#fde68a',
+					300: '#fcd34d',
+					400: '#fbbf24',
+					500: '#f59e0b',
+					600: '#d97706',
+					700: '#b45309',
+					800: '#92400e',
+					900: '#78350f'
 				}
 			},
 			borderRadius: {
